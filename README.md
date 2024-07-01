@@ -1,2 +1,1 @@
-# trying_github_actions
-Repo to try GitHub for web scraping
+Repo to try GitHub Actions for web scraping. I learned how to do it from this [blog post](https://yasoob.me/posts/github-actions-web-scraper-schedule-tutorial/#getting-started-with-github-action) and this [repo](https://github.com/swyxio/gh-action-data-scraping). I used ChatGPT and this [Stack Overflow post](https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot) for debugging.
