@@ -3,7 +3,7 @@
 
 # Importing libraries
 import requests
-from datetime import datetime
+import datetime
 
 # URL to scrape
 url = 'https://en.wikipedia.org/wiki/Mindfulness'
@@ -16,7 +16,7 @@ title = response.text.split('<title>')[1].split('</title>')[0]
 print(title)
 
 # Get current date and time
-dt = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+dt = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 
 # Path of the file
 path = f'data/{dt}.txt'
