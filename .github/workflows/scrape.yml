@@ -20,7 +20,5 @@ jobs:
       - name: Run Scraper
         run: python scraper.py
       - uses: mikeal/publish-to-github-action@master
-        with:
-          branch: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
